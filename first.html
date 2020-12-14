@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 浏览器标题 -->
+    <title>案例</title>  
+    
+    <h1>我是一级标题</h1>
+
+    <!-- 当您把鼠标移至缩略词语上时，title 可用于展示表达的完整版本。 -->
+    <abbr title="abcdef">好的</abbr>
+   <!-- q用于短引用，有引号 -->
+    <p>我的目标是：<q>看我的引用--构建人与自然和谐共存的世界。</q></p> 
+
+    <!-- CSS的引入方式:外部样式表 -->
+<link rel="stylesheet" type="text/css" href="CSS的文件位置">  
+<!-- 内部样式表:当单个文件需要特别样式时，就可以使用内部样式表。你可以在 head 部分通过 <style> 标签定义内部样式表。 -->
+
+<style type="text/css">
+/* 下面表示所有的body里面的内容都为红色，p标签都。 */
+body {background-color:white}   
+p {margin-left: 20px}
+</style>
+
+<!-- 内联样式(行内样式表):当特殊的样式需要应用到个别元素时，就可以使用内联样式。 -->
+<p style="color: violet; ">这是行内样式表</p>
+
+<!-- 类选择器 -->
+<style>
+    .lei {
+        background-color:black;
+        color:white;
+        margin:20px;
+        padding:20px;
+    } 
+    </style>
+
+
+
+</head>
+<!-- <head></head>之间的信息你都是看不到的.
+而在<body>和</body>之间的信息，是正文,才是你要在网页中展现出来的.
+你这个写法是不规范的,之所以还能正常运行显示出来,是因为html语法要求比较低. -->
+
+<body>
+    <!-- 超链接，name 属性,name 属性规定锚（anchor）的名称.
+    当使用命名锚（named anchors）时，我们可以创建直接跳至该命名锚（比如页面中某个小节）的链接，这样使用者就无需不停地滚动页面来寻找他们需要的信息了。 -->
+    <a href="http://www.w3school.com.cn/">Visit W3School</a>
+   <!-- 换行 -->
+    <br>
+   <!-- 图像，这是一个单标签，没有闭合标签 -->
+    <img src="C:\Users\zyz\Desktop\自然辩证法"  alt="如果图片加载不出来 显示该文本" />
+    <br>
+    <p class="lei">我用了类选择器</p>
+  
+<!-- 块级元素(内联元素): div 一行显示一个  行内元素:span 可以一行显示多个 -->
+
+</body>
+</html>
